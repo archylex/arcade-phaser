@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="5">
+ <editorsettings>
+  <export target="../../../media/alec/5322679e-bfc9-40ff-bea3-6887b3fcd3ac/Projects/tryphaser/assets/tilemaps/json/level1.tmj" format="json"/>
+ </editorsettings>
+ <properties>
+  <property name="name" value="level1-stair"/>
+ </properties>
+ <tileset firstgid="1" name="terrain2" tilewidth="32" tileheight="32" tilecount="504" columns="36">
+  <properties>
+   <property name="collides" type="bool" value="false"/>
+  </properties>
+  <image source="../Downloads/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/Tilesets/Tileset-Terrain2.png" width="1152" height="448"/>
+  <tile id="37">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="144">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="147">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="148">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="collides" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="192">
+   <properties>
+    <property name="collides" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="collides" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="229">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Ground" width="10" height="10">
+  <properties>
+   <property name="collides" type="bool" value="false"/>
+  </properties>
+  <data encoding="csv">
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238,
+238,238,238,238,238,238,238,238,238,238
+</data>
+ </layer>
+ <objectgroup id="4" name="Crystals">
+  <object id="1" name="crystal_point" x="209.333" y="78">
+   <point/>
+  </object>
+  <object id="2" name="crystal_point" x="43.3333" y="274">
+   <point/>
+  </object>
+  <object id="3" name="crystal_point" x="271.333" y="204">
+   <point/>
+  </object>
+  <object id="4" name="crystal_point" x="301.333" y="309.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Stairs" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,157,0,0,0,0,0,
+0,0,0,0,193,0,0,0,0,0,
+0,0,0,0,229,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Walls" width="10" height="10">
+  <properties>
+   <property name="collides" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,38,39,39,39,39,39,40,0,0,
+73,74,0,0,0,0,0,76,40,0,
+109,0,0,0,0,0,0,0,76,77,
+145,146,0,0,0,0,0,0,0,113,
+181,182,146,0,0,0,148,183,183,149,
+0,0,182,156,0,158,184,219,219,185,
+0,0,218,192,0,194,220,0,0,0,
+0,0,0,228,0,230,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
